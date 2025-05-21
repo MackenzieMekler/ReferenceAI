@@ -1,0 +1,7 @@
+services: 
+  app:
+    build: ./
+    ports:
+      - "8008:8008"
+    restart: on-failure:10
+    container_name: RefAIapp
