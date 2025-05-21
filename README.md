@@ -12,8 +12,8 @@ By lining up the similar sentence AI and the LLM we are able to reduce the numbe
 1. Backend API - Started. The basic routes are designed but additions and testing will be needed
 2. LLM Integration - Started. Prompt made and the LLM is functional. Currently limited by the server hosting it.
 3. Zotero Integration - Started. Works locally, needs to be updated and integrated better. Should also make it so this can work off of Zotero API as well.
+4. Made a first docker version of the API that is up and running currently on my server
 
 ## Next Steps
 1. Continue backend testing and improvements
-2. Create frontend and begin integrating it with the back
-3. Dockerize the backend? 
+2. Create the client testing environment to start working with the js api calls and testing frontend/backend 
